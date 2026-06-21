@@ -30,16 +30,12 @@ Proyek ini diselesaikan secara kolaboratif oleh tim yang terbagi menjadi dua fok
 
 ```text
 .
-├── backend/                  # Sisi Server (Python) - Tugas Orang 1
-│   ├── rsa_core.py           # Logika Inti Algoritma RSA (Keygen, Sign, Verify)
-│   ├── utils.py              # Utilitas Hashing Dokumen (SHA-256)
-│   ├── main.py               # Entry Point Aplikasi / Handler API
-│   └── requirements.txt      # Daftar Dependensi Python
+.
+├── backend/                  # Folder Utama Aplikasi (Gabungan Sistem)
+│   ├── __pycache__/          # File cache otomatis Python (abaikan/masuk .gitignore)
+│   ├── rsa_core.py           # Logika Inti Algoritma RSA (Keygen, Sign, Verify) - Tugas Orang 1
+│   ├── utils.py              # Utilitas Hashing Dokumen (SHA-256) - Tugas Orang 1
+│   └── app.py                # Interface GUI PyQt (Frontend) - Tugas Orang 2
 │
-├── frontend/                 # Sisi Klien (User Interface) - Tugas Orang 2
-│   ├── index.html            # Layout Utama UI
-│   ├── style.css             # Desain Tampilan Aplikasi
-│   └── script.js             # Logika Integrasi & Request ke Backend
-│
-├── .gitignore                # Pengecualian File Sampah Git
+├── .gitignore                # Pengecualian file sampah Git (seperti __pycache__)
 └── README.md                 # Dokumentasi Utama Proyek
