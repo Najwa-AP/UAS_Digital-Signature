@@ -29,8 +29,6 @@ Proyek ini diselesaikan secara kolaboratif oleh tim yang terbagi menjadi dua fok
 ## 🏗️ Struktur Folder Repository
 
 ```text
-.
-.
 ├── backend/                  # Folder Utama Aplikasi (Gabungan Sistem)
 │   ├── __pycache__/          # File cache otomatis Python (abaikan/masuk .gitignore)
 │   ├── rsa_core.py           # Logika Inti Algoritma RSA (Keygen, Sign, Verify) - Tugas Orang 1
